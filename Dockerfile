@@ -9,3 +9,7 @@ ADD https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.375/aw
 # Add hadoop-aws to access Amazon S3
 ADD https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.2.0/hadoop-aws-3.2.0.jar $SPARK_HOME/jars
 
+RUN chmod 644 $SPARK_HOME/jars/aws-java-sdk-bundle-1.11.375.jar
+RUN chmod 644 $SPARK_HOME/jars/hadoop-aws-3.2.0.jar
+
+USER 185
