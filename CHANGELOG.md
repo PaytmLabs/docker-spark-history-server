@@ -6,10 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [v0.1.0] - 2020-09-30
+## [v3.0.0-hadoop3-labs1] - 2020-09-30
 ### Added
 - Spark history server DockerFile
 - Changed license to MIT
 
-[Unreleased]: https://github.com/PaytmLabs/docker-spark-history-server/compare/v0.1.0...HEAD
-[v0.1.0]: https://github.com/PaytmLabs/docker-spark-history-server/releases/tag/v0.1.0
+[Unreleased]: https://github.com/PaytmLabs/docker-spark-history-server/compare/v3.0.0-hadoop3-labs1...HEAD
+[v3.0.0-hadoop3-labs1]: https://github.com/PaytmLabs/docker-spark-history-server/releases/tag/v3.0.0-hadoop3-labs1
